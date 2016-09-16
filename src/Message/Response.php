@@ -21,6 +21,11 @@ class Response extends AbstractResponse
         return false;
     }
 
+    public function isCompleted()
+    {
+        return $this->isSuccessful();
+    }
+
     /**
      * @return string|null
      */
