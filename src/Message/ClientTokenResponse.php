@@ -21,6 +21,12 @@ class ClientTokenResponse extends AbstractResponse
         return true;
     }
 
+    public function isCompleted()
+    {
+        // not sure if this is the correct way - let's see?
+        return $this->isSuccessful();
+    }
+
     public function getToken()
     {
         return $this->data;
