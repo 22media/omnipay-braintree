@@ -3,9 +3,9 @@
 namespace Omnipay\Braintree\Message;
 
 use Braintree_Gateway;
-use Guzzle\Http\ClientInterface;
+use League\Omnipay\Common\Http\ClientInterface;
 use League\Omnipay\Common\Exception\InvalidRequestException;
-use Symfony\Component\HttpFoundation\Request as HttpRequest;
+use Psr\Http\Message\ServerRequestInterface as HttpRequest;
 use League\Omnipay\Common\Message\AbstractRequest as BaseAbstractRequest;
 
 /**
