@@ -16,7 +16,7 @@ class AuthorizeRequest extends AbstractRequest
         $this->validate('amount');
 
         $data = array(
-            'amount' => $this->getAmount(),
+            'amount' => $this->getAmount()->getAmount(),
             'billingAddressId' => $this->getBillingAddressId(),
             'channel' => $this->getChannel(),
             'customFields' => $this->getCustomFields(),
