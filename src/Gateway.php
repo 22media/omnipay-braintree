@@ -2,7 +2,7 @@
 
 namespace Omnipay\Braintree;
 
-use Omnipay\Common\AbstractGateway;
+use League\Omnipay\Common\AbstractGateway;
 use Braintree_Gateway;
 use Braintree_Configuration;
 use Guzzle\Http\ClientInterface;

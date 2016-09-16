@@ -2,7 +2,7 @@
 
 namespace Omnipay\Braintree\Message;
 
-use Omnipay\Common\Message\ResponseInterface;
+use League\Omnipay\Common\Message\ResponseInterface;
 
 /**
  * Authorize Request

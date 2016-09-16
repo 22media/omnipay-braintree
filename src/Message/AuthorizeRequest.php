@@ -1,8 +1,8 @@
 <?php
 namespace Omnipay\Braintree\Message;
 
-use Omnipay\Common\Exception\InvalidRequestException;
-use Omnipay\Common\Message\ResponseInterface;
+use League\Omnipay\Common\Exception\InvalidRequestException;
+use League\Omnipay\Common\Message\ResponseInterface;
 
 /**
  * Authorize Request

@@ -2,7 +2,7 @@
 
 namespace Omnipay\Braintree\Message;
 
-use Omnipay\Common\Message\AbstractResponse;
+use League\Omnipay\Common\Message\AbstractResponse;
 
 /**
  * Response
